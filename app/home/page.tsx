@@ -1,5 +1,6 @@
 "use client"; // if you’re using hooks anywhere
 import LiveClock from "./LiveClock";
+
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
       <nav className="sticky top-0 flex justify-between items-center px-6 py-4 bg-gray-800 shadow-lg">
         <h1 className="text-2xl font-bold">Toluwani Bamidelejeje</h1>
         <ul className="hidden md:flex space-x-6">
-          <li><a href="hero" className="hover:text-gray-400">Home</a></li>
+          <li><a href="home" className="hover:text-gray-400">Home</a></li>
           <li><a href="about" className="hover:text-gray-400">About</a></li>
           <li><a href="projects" className="hover:text-gray-400">Projects</a></li>
           <li><a href="contact" className="hover:text-gray-400">Contact</a></li>
