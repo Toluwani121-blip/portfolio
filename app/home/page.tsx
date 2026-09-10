@@ -1,6 +1,5 @@
 "use client"; // if you’re using hooks anywhere
 import LiveClock from "./LiveClock";
-
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default function Home() {
@@ -174,6 +173,7 @@ export default function Home() {
       <footer className="bg-gray-900 text-white py-6 mt-20 text-center">
         <p>&copy; {new Date().getFullYear()} Toluwani. All rights reserved.</p>
       </footer>
+      <LiveClock/>
     </main>
   );
 }
